@@ -73,7 +73,7 @@ for i in "${!REPOS[@]}"; do
     continue
   fi
 
-  if GIT_ASKPASS=echo git push "$REPO_URL" main >/dev/null 2>&1; then
+  if GIT_ASKPASS=echo git push origin HEAD >/dev/null 2>&1; then
     echo "  $(basename "$REPO") push OK"
     PUSHED_ANY=1
   else
