@@ -30,6 +30,7 @@ REPOS=(
   "/home/ubuntu/dis2-session-keeper"
   "/home/ubuntu/motorkux-bot"
   "/home/ubuntu/surat-desa"
+  "/home/ubuntu/scripts"
 )
 
 REPO_URLS=(
@@ -39,6 +40,7 @@ REPO_URLS=(
   "https://github.com/haeradi/dis2-session-keeper.git"
   "https://github.com/haeradi/motorkux-bot.git"
   "https://github.com/haeradi/surat-desa.git"
+  "https://github.com/haeradi/scripts.git"
 )
 
 mkdir -p "$(dirname "$LOG_FILE")"
